@@ -1,4 +1,4 @@
-package com.thelife.request;
+package com.record.thelife.request;
 
 import lombok.Data;
 

@@ -1,5 +1,6 @@
-package com.record.dao;
+package com.record.thelife.mapper;
 
+import com.record.thelife.entity.User;
 import tk.mybatis.mapper.common.Mapper;
 
 
@@ -9,9 +10,7 @@ import tk.mybatis.mapper.common.Mapper;
  * @author makejava
  * @since 2019-11-17 13:02:43
  */
-@org.apache.ibatis.annotations.Mapper
 public interface UserDao extends Mapper {
-
 
 
 }

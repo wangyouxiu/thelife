@@ -1,4 +1,4 @@
-package com.thelife;
+package com.record;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;

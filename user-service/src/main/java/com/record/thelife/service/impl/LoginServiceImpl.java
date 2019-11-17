@@ -1,15 +1,15 @@
-package com.thelife.service.impl;
+package com.record.thelife.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.record.dao.UserDao;
-import com.thelife.request.UserRequest;
-import com.thelife.service.LoginService;
+import com.record.thelife.mapper.UserDao;
+import com.record.thelife.request.UserRequest;
+import com.record.thelife.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
 public class LoginServiceImpl implements LoginService {
 
-    @Autowired
+    @Autowired(required = true)
     private UserDao userMapper;
 
     @Override

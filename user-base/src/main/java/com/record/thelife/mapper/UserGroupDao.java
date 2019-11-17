@@ -1,5 +1,6 @@
-package com.record.dao;
+package com.record.thelife.mapper;
 
+import com.record.thelife.entity.UserGroup;
 import tk.mybatis.mapper.common.Mapper;
 
 

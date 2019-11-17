@@ -1,4 +1,4 @@
-package com.record.entity;
+package com.record.thelife.entity;
 
 import java.util.Date;
 import java.io.Serializable;

@@ -1,0 +1,5 @@
+com\record\dao\UserDao.class
+com\record\dao\UserGroupDao.class
+com\record\entity\User.class
+com\record\entity\UserGroup.class
+com\record\UserBaseApplication.class
